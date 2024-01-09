@@ -21,7 +21,7 @@ This approach also removes isolation in feature development, cuts down integrati
 # cd
 Continuous Delivery is the ability to get changes of all types—including new features, configuration changes, bug fixes and experiments—into production, or into the hands of users, safely and quickly in a sustainable way.
 # Jenkins
-Jenkins is a Java-based open-source automation platform with plugins designed for continuous integration. It is used to continually create and test software projects, making it easier for developers and DevOps engineers to integrate changes to the project and for consumers to get a new build
+Jenkins is a Java-based open-source automation platform with plugins designed for continuous integration and deployment. It is used to continually create and test software projects, making it easier for developers and DevOps engineers to integrate changes to the project and for consumers to get a new build
 ## benefits
 Jenkins offers many benefits for implementing CI/CD in IT operations management, such as flexibility, scalability, reliability, security, and collaboration. It is highly customizable, with hundreds of plugins that extend its functionality and compatibility with various tools and technologies.
 ## alternatives
@@ -53,5 +53,23 @@ Jenkins offers many benefits for implementing CI/CD in IT operations management,
 
 # CICD diagram 
 ![Alt text](image-7.png)
-
-
+## CICD explenation
+![Alt text](image-8.png)
+![Alt text](image-9.png)
+## Our CICD pipeline
+![Alt text](image-10.png)
+## Our CICD in Jenkins
+For a complex pipeline, stage 1 - jobs within pipeline, the stage  and some other jobs, 1 2 and 3. and so on. As many stages and jobs as necesary for a pipeline.
+![alt text](image-11.png)
+## Jobs
+steps
+- git push
+- webhook
+- jenkins
+- master node
+- agent node
+- jobs
+you need to wait for a master ndoe to spin up an agent VM
+If a job freezez up thats fine, but if you run jobs on the amster node, the master node will be frozer,it will be down, much better to make runner nodes to run the jobs. 
+Jenkins needs the private key.
+![Alt text](image-12.png)
