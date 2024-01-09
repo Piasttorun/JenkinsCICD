@@ -9,3 +9,49 @@
 ## remember to switch to SSH from HTTPS
 ![Alt text](image-1.png)
 ![Alt text](image.png)
+# CICD
+## continuous integration and continuous delivery/continuous deployment.
+## Automated build-and-test steps triggered by CI ensure that code changes being merged into the repository are reliable. The code is then delivered quickly and seamlessly as a part of the CD process. In the software world, the CI/CD pipeline refers to the automation that enables incremental code changes from developers’ desktops to be delivered quickly and reliably to production.
+## CI/CD allows organizations to ship software quickly and efficiently. CI/CD facilitates an effective process for getting products to market faster than ever before, continuously delivering code into production, and ensuring an ongoing flow of new features and bug fixes via the most efficient delivery method. 
+![Alt text](image-5.png)
+# cde
+Time for Continuous Deployment (CDE)
+
+This approach also removes isolation in feature development, cuts down integration costs, helps quickly discover conflicts, promotes timely feedback, and maintains overall alignment with functionality.
+# cd
+Continuous Delivery is the ability to get changes of all types—including new features, configuration changes, bug fixes and experiments—into production, or into the hands of users, safely and quickly in a sustainable way.
+# Jenkins
+Jenkins is a Java-based open-source automation platform with plugins designed for continuous integration. It is used to continually create and test software projects, making it easier for developers and DevOps engineers to integrate changes to the project and for consumers to get a new build
+## benefits
+Jenkins offers many benefits for implementing CI/CD in IT operations management, such as flexibility, scalability, reliability, security, and collaboration. It is highly customizable, with hundreds of plugins that extend its functionality and compatibility with various tools and technologies.
+## alternatives
+- CircleCI.
+- GitLab CI.
+- GitHub Actions.
+- Atlassian Bamboo.
+- JetBrains TeamCity.
+- Buildkite.
+# pipelines
+![Alt text](image-6.png)
+- Execute this Pipeline or any of its stages, on any available agent.
+- Defines the "Build" stage.
+- Perform some steps related to the "Build" stage.
+- Defines the "Test" stage.
+- Perform some steps related to the "Test" stage.
+- Defines the "Deploy" stage.
+- Perform some steps related to the "Deploy" stage.
+## Why pipelines
+- Code: Pipelines are implemented in code and typically checked into source control, giving teams the ability to edit, review, and iterate upon their delivery pipeline.
+
+- Durable: Pipelines can survive both planned and unplanned restarts of the Jenkins controller.
+
+- Pausable: Pipelines can optionally stop and wait for human input or approval before continuing the Pipeline run.
+
+- Versatile: Pipelines support complex real-world CD requirements, including the ability to fork/join, loop, and perform work in parallel.
+
+- Extensible: The Pipeline plugin supports custom extensions to its DSL [1] and multiple options for integration with other plugins.
+
+# CICD diagram 
+![Alt text](image-7.png)
+
+
