@@ -73,3 +73,41 @@ you need to wait for a master ndoe to spin up an agent VM
 If a job freezez up thats fine, but if you run jobs on the amster node, the master node will be frozer,it will be down, much better to make runner nodes to run the jobs. 
 Jenkins needs the private key.
 ![Alt text](image-12.png)
+# Set up
+- use ssh
+- set up the branch
+- set up access to the github repositoy
+
+# first create new key pair
+## add to a repo not account
+![Alt text](image-21.png)
+# use jenkins
+## go to url
+## go to new items
+![Alt text](image-13.png)
+# create freestyle project
+![Alt text](image-14.png)
+## add executable script
+![alt text](image-15.png)
+## you can also link another job
+![alt iamge](image-16.png)
+## you can run them and configure by selecting them
+![Alt text](image-17.png)
+![Alt text](image-18.png)
+# from here you can configure so change the sheel executable command or link another job
+## here you can also check the output 
+![Alt text](image-19.png)
+![Alt text](image-20.png)
+## you can delete and create new ones quite intuitively
+# Create jobs, job 1
+## remember to limit vm's
+![Alt text](image-22.png)
+## arange source code managment, user private key, incldue the headers at top and bottom
+![Alt text](image-23.png)
+# need maven plug in to use maven, package recompiles and then test rusn the tests
+![Alt text](image-24.png)
+# encoutered a blocker of the vm's being at capacity and not being able to run the jobs
+# re configured and fixed by runnign the individualy on other vm's
+# additionaly add the url of your guthub under the gegenral section where you limit vm's
+![](image-25.png)
+# its the https not shh this time
