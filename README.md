@@ -111,7 +111,7 @@ Jenkins needs the private key.
 ## additionaly add the url of your guthub under the gegenral section where you limit vm's
 ![](image-25.png)
 ## its the https not shh this time
-## Here we set up webhook lsitening
+## Here we set up webhook listening
 ![](image-26.png)
 ## specify branch any
 ![Alt text](image-27.png)
