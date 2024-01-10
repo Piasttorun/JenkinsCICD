@@ -104,10 +104,21 @@ Jenkins needs the private key.
 ![Alt text](image-22.png)
 ## arange source code managment, user private key, incldue the headers at top and bottom
 ![Alt text](image-23.png)
-# need maven plug in to use maven, package recompiles and then test rusn the tests
+## need maven plug in to use maven, package recompiles and then test rusn the tests
 ![Alt text](image-24.png)
-# encoutered a blocker of the vm's being at capacity and not being able to run the jobs
-# re configured and fixed by runnign the individualy on other vm's
-# additionaly add the url of your guthub under the gegenral section where you limit vm's
+## encoutered a blocker of the vm's being at capacity and not being able to run the jobs
+## re configured and fixed by runnign the individualy on other vm's
+## additionaly add the url of your guthub under the gegenral section where you limit vm's
 ![](image-25.png)
-# its the https not shh this time
+## its the https not shh this time
+## Here we set up webhook lsitening
+![](image-26.png)
+## specify branch any
+![Alt text](image-27.png)
+## add webhook to github
+![Alt text](image-28.png)
+## creating job, job 2 works
+![Alt text](image-29.png)
+## you need a merge before build and a git publisher plugin.
+![Alt text](image-30.png)
+![Alt text](image-31.png)
