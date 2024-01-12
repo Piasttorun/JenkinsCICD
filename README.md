@@ -122,3 +122,7 @@ Jenkins needs the private key.
 ## you need a merge before build and a git publisher plugin.
 ![Alt text](image-30.png)
 ![Alt text](image-31.png)
+# build job 3
+![Alt text](image-32.png)
+# script without testing
+![Alt text](image-33.png)
