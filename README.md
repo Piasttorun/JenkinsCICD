@@ -124,5 +124,15 @@ Jenkins needs the private key.
 ![Alt text](image-31.png)
 # build job 3
 ![Alt text](image-32.png)
-# script without testing
+## script without testing
 ![Alt text](image-33.png)
+## adding tech242 pem file
+![Alt text](image-34.png)
+![Alt text](image-35.png)
+## correct scp commands
+![Alt text](image-36.png)
+## changes made when pushed to dev
+![Alt text](image-37.png)
+![Alt text](image-38.png)
+## blockers were not beign able to make the command when using shh agent,
+## the slution was : ```-o StrictHostKeyChecking=no ```
